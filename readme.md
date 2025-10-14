@@ -1,4 +1,56 @@
-## Prompting demo
+# Tokenizacja
+
+### Tokenizacja vs embedding
+
+![tokenization_1](./assets//tokenization_1.png)
+
+### Tokenization playground
+
+[LINK](https://huggingface.co/spaces/Xenova/the-tokenizer-playground)
+
+![tokenization_playground](./assets/tokenization_playground.png)
+
+### Uproszczone chatbot flow
+
+![chatbot_flow](./assets/chatbot_flow.png)
+
+### LLM jest autoregresywny
+
+![autoregressive](./assets/autoregression.png)
+
+### Materiały:
+
+**Tokenizacja:**
+
+- https://medium.com/data-science-collective/the-invisible-building-blocks-of-ai-what-you-need-to-know-about-tokenization-acadd86a63ba
+- https://www.geeksforgeeks.org/nlp/nlp-how-tokenizing-text-sentence-words-works/
+
+**Embeddingi:**
+
+- https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/
+- https://www.ibm.com/think/topics/vector-embedding
+
+**Generowanie tekstu:**
+
+- https://www.geeksforgeeks.org/nlp/tokenization-vs-embeddings/
+- https://pm.dartus.fr/posts/2025/how-llm-generate-text/
+
+# Agenci
+
+### Architektura agenta
+
+![agent_architecture](./assets/agents.png)
+
+### Narzędzia
+
+![agent_tools](./assets/tool_definition.png)
+
+### Materiały:
+
+- https://medium.com/@maximilian.vogel/mastering-ai-agents-the-10-best-free-courses-tutorials-learning-tools-46bc380a19d1
+- https://huggingface.co/learn/agents-course/unit0/introduction
+
+# Prompting demo
 
 ### Podstawowy prompt
 
@@ -107,15 +159,15 @@ W tym prompcie zmuszasz AI do:
 
 Dzięki temu, nawet jeśli AI nie "trafiłoby" idealnie, zobaczysz jego proces myślowy i będziesz mógł precyzyjniej skorygować prompt w kolejnej interakcji.
 
-## Prompting inspirations and resources
+## Materiały:
 
-**General resources:**
+**Ogólne:**
 
 - [Hugging Face prompt engineering theory](https://huggingface.co/docs/transformers/en/tasks/prompting)
 - [Prompt engineering full guide](https://www.promptingguide.ai/)
 - [Short guide](https://aalapdavjekar.medium.com/all-the-wrong-and-right-ways-to-prompt-a-tiny-guide-5bd119d312b3)
 
-**Model-specific resources:**
+**Instrukcje dla konkretnych modeli:**
 
 - [OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Claude](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)

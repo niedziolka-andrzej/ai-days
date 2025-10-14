@@ -1,0 +1,24 @@
+{
+    "function": {
+        "name": "multiply",
+        "description": "Multiplies two numbers and returns the product",
+        "parameters": {
+            "a": {
+                "type": "number",
+                "description": "First number to multiply"
+            },
+            "b": {
+                "type": "number",
+                "description": "Second number to multiply"
+            },
+            "required": [
+                "a",
+                "b"
+            ]
+        },
+        "returns": {
+            "type": "number",
+            "description": "The product of the two input numbers"
+        }
+    }
+}
