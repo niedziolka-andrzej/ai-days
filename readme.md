@@ -181,3 +181,8 @@ Dzięki temu, nawet jeśli AI nie "trafiłoby" idealnie, zobaczysz jego proces m
 
 - [OpenAI](https://platform.openai.com/docs/guides/prompt-engineering)
 - [Claude](https://docs.claude.com/en/docs/build-with-claude/prompt-engineering/overview)
+
+**Playgrounds:**
+
+- [Hugging Face](https://huggingface.co/playground)
+- [Google AI Studio](https://aistudio.google.com/)
