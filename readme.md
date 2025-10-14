@@ -119,6 +119,16 @@ Dodatkowo, proszę, aby rekomendacje były dostosowane do osoby, która ma już 
 
 ```
 
+Używanie tagów, takich jak XML (`<tag>`), w długich promptach pomaga modelom LLM (Large Language Models) udzielać lepszych odpowiedzi, ponieważ:
+
+1.  **Strukturyzacja i Segmentacja Kontekstu:** Tagi działają jak wizualne i logiczne separatory, pomagając modelowi **wyraźnie rozróżnić** różne sekcje instrukcji, danych wejściowych, ograniczeń i oczekiwanego formatu wyjściowego. W długim prompcie, gdzie łatwo o zagubienie kontekstu, taga (np. `<Instrukcje>`, `<DaneWejściowe>`, `<KontekstFirmy>`) zapobiega pomieszaniu tych elementów.
+
+2.  **Precyzyjne Wydobywanie Informacji:** Tagi umożliwiają modelowi **precyzyjne skupienie uwagi** na kluczowych fragmentach. Możesz poprosić model: "Użyj tylko informacji zawartych w tagu `<DaneWejściowe>`", co zmniejsza ryzyko "halucynacji" lub czerpania z ogólnej wiedzy na temat, na który dostarczasz konkretne informacje.
+
+3.  **Wzmacnianie Ograniczeń (Constraint Enforcement):** Pomagają w **definiowaniu oczekiwanego formatu wyjściowego**. Możesz zażądać, aby model zwrócił odpowiedź w określonych tagach (np. `<Odpowiedź>`, `<Uzasadnienie>`), co jest szczególnie cenne przy automatyzacji procesów i integracji z innymi systemami.
+
+**Podsumowując:** Tagi poprawiają **przejrzystość strukturalną** i **rozróżnianie semantyczne** w złożonych promptach, zwiększając tym samym trafność, precyzję i przewidywalność odpowiedzi modelu.
+
 ### 6. Chain-of-thought
 
 "Jako mój osobisty konsultant ds. rozwoju kariery, pomóż mi stworzyć spersonalizowany plan rozwoju na najbliższe 6 miesięcy. Moim głównym celem jest **przejście na stanowisko menedżera produktu w branży FinTech**. Mam 3 lata doświadczenia jako analityk danych, ale brakuje mi formalnego doświadczenia w zarządzaniu produktem.
