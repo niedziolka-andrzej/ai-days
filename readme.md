@@ -101,21 +101,66 @@ Dodatkowo, proszę, aby rekomendacje były dostosowane do osoby, która ma już 
 ### 5. Formatowanie
 
 ```
-<Instrukcja>
-  Przygotuj 3-punktowy plan rozwoju osobistego dla nauki języka hiszpańskiego.
-  Plan powinien być krótki, konkretny i w punktach.
-</Instrukcja>
+<prompt>
+    <rola>
+        ## Rola: Pracownik działu marketingu w firmie technologicznej
+    </rola>
 
-<Kontekst_Użytkownika>
-  <Poziom_Początkowy>A1 (Podstawowy)</Poziom_Początkowy>
-  <Dostępny_Czas>1 godzina dziennie</Dostępny_Czas>
-  <Styl_Nauki>Wzrokowiec</Styl_Nauki>
-</Kontekst_Użytkownika>
+    <cel>
+        ## Cel: Stworzenie spersonalizowanego planu rozwoju zawodowego
+        Chcę poszerzyć swoją wiedzę branżową i podnieść kwalifikacje, aby skuteczniej wspierać strategię firmy.
+    </cel>
 
-<Wymagany_Zakres>
-  Skup się na: aplikacjach mobilnych, fiszkach cyfrowych i zasobach wizualnych.
-  Wyklucz: tradycyjne podręczniki i długie teksty.
-</Wymagany_Zakres>
+    <kontekst>
+        ### Kontekst i obszary zainteresowania
+        Jestem pracownikiem działu marketingu z podstawowym doświadczeniem, pracującym w **dynamicznie rozwijającej się firmie technologicznej**. Szukam **zaawansowanych treści**, które pomogą mi być na bieżąco z innowacjami.
+
+        Moje główne obszary zainteresowania to:
+        *   **Najnowsze trendy w marketingu cyfrowym**
+        *   **Analiza danych marketingowych**
+        *   **Psychologia konsumenta**
+    </kontekst>
+
+    <plan_rozwoju>
+        ### Ograniczenia planu
+        Plan powinien skupiać się **wyłącznie** na następujących kategoriach rekomendacji:
+
+        1.  `<kategoria>Kursy online i szkolenia branżowe</kategoria>` (płatne i darmowe, wysoko oceniane i aktualne)
+        2.  `<kategoria>Książki</kategoria>` (klasyczne i najnowsze publikacje)
+        3.  `<kategoria>Wydarzenia branżowe</kategoria>` (konferencje, webinary w ciągu najbliższych 6-12 miesięcy)
+        4.  `<kategoria>Narzędzia i zasoby AI</kategoria>` (wspierające naukę lub praktyczne zastosowanie wiedzy, np. do analizy trendów, personalizacji treści)
+    </plan_rozwoju>
+
+    <oczekiwany_rezultat>
+        ### Struktura odpowiedzi
+        Oczekuję rezultatu w formie **listy punktów**. Każda rekomendacja powinna zawierać następujące elementy:
+
+        *   **Tytuł/Nazwa:** Nazwa kursu, książki, wydarzenia lub narzędzia.
+        *   **Krótki opis:** Zwięzłe streszczenie zawartości lub funkcji.
+        *   **Dlaczego jest to istotne:** Wyjaśnienie wartości dla mojego rozwoju w kontekście marketingu.
+        *   **Orientacyjny czas/koszt:** (jeśli dotyczy) Szacowany czas trwania lub koszt.
+        *   **Link/Źródło:** (jeśli możliwe i bezpieczne) Bezpośredni link.
+    </oczekiwany_rezultat>
+
+    <przyklady>
+        ### Przykładowe rekomendacje
+        Poniżej znajdują się przykłady, jak powinna wyglądać każda rekomendacja:
+
+        ---
+        *   **Kurs online: "Advanced Digital Marketing Strategies"**
+            *   **Opis:** Kurs skupiający się na zaawansowanych technikach marketingu cyfrowego, w tym SEO, SEM i analityce danych.
+            *   **Dlaczego istotne:** Pomaga zrozumieć skomplikowane strategie marketingowe i ich zastosowanie w praktyce.
+            *   **Czas/koszt:** 6 tygodni, koszt 500 PLN.
+            *   **Link:** Przykładowy link do kursu
+
+        *   **Książka: "Consumer Psychology in Marketing"**
+            *   **Opis:** Książka omawiająca psychologię konsumenta i jej wpływ na decyzje zakupowe.
+            *   **Dlaczego istotne:** Pomaga zrozumieć motywacje konsumentów i jak je wykorzystać w strategiach marketingowych.
+            *   **Czas/koszt:** 300 stron, koszt 80 PLN.
+            *   **Link:** Przykładowy link do książki
+        ---
+    </przyklady>
+</prompt>
 
 ```
 
