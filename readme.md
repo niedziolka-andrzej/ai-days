@@ -54,11 +54,11 @@
 
 ### Podstawowy prompt
 
-Jestem pracownikiem działu marketingu. Jak mogę się rozwijać?
+Jestem pracownikiem działu marketingu. Chciałbym się rozwijać zawodowo. Jakie masz dla mnie rekomendacje?
 
 ### 1. Dodanie kontekstu
 
-**Kontekst dla LLM**: Jestem pracownikiem działu marketingu w dynamicznie rozwijającej się firmie technologicznej. Chcę poszerzyć swoją wiedzę branżową w obszarach związanych z najnowszymi trendami w marketingu cyfrowym, analizie danych marketingowych oraz psychologii konsumenta. Moim celem jest bycie na bieżąco z innowacjami i podnoszenie swoich kwalifikacji, aby skuteczniej wspierać strategię firmy.
+Jestem pracownikiem działu marketingu w dynamicznie rozwijającej się firmie technologicznej. Chcę poszerzyć swoją wiedzę branżową w obszarach związanych z najnowszymi trendami w marketingu cyfrowym, analizie danych marketingowych oraz psychologii konsumenta. Moim celem jest bycie na bieżąco z innowacjami i podnoszenie swoich kwalifikacji, aby skuteczniej wspierać strategię firmy.
 
 ### 2. Zawężenie zakresu
 
@@ -71,7 +71,7 @@ Plan powinien skupiać się wyłącznie na rekomendacjach dotyczących:
 
 ### 3. Oczekiwany rezultat
 
-Oczekiwany rezultat to lista punktów, zawierająca:
+Oczekiwany rezultat to lista kilku najbardziej dopasowanych rekomendacji, w formie tabeli. Każda rekomendacja powinna zawierać następujące elementy:
 
 - **Tytuł/Nazwa**: Nazwa kursu, książki, wydarzenia lub narzędzia.
 - **Krótki opis**: Streszczenie zawartości lub funkcji.
@@ -175,6 +175,8 @@ Używanie tagów, takich jak XML (`<tag>`), w długich promptach pomaga modelom 
 **Podsumowując:** Tagi poprawiają **przejrzystość strukturalną** i **rozróżnianie semantyczne** w złożonych promptach, zwiększając tym samym trafność, precyzję i przewidywalność odpowiedzi modelu.
 
 ### 6. Chain-of-thought
+
+![chain_of_thought](./assets/cot.webp)
 
 "Jako mój osobisty konsultant ds. rozwoju kariery, pomóż mi stworzyć spersonalizowany plan rozwoju na najbliższe 6 miesięcy. Moim głównym celem jest **przejście na stanowisko menedżera produktu w branży FinTech**. Mam 3 lata doświadczenia jako analityk danych, ale brakuje mi formalnego doświadczenia w zarządzaniu produktem.
 
