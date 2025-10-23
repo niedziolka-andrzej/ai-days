@@ -22,18 +22,18 @@
 
 **Tokenizacja:**
 
-- https://medium.com/data-science-collective/the-invisible-building-blocks-of-ai-what-you-need-to-know-about-tokenization-acadd86a63ba
-- https://www.geeksforgeeks.org/nlp/nlp-how-tokenizing-text-sentence-words-works/
+- [What you need to know about tokenization](https://medium.com/data-science-collective/the-invisible-building-blocks-of-ai-what-you-need-to-know-about-tokenization-acadd86a63ba)
+- [How tokenizing works](https://www.geeksforgeeks.org/nlp/nlp-how-tokenizing-text-sentence-words-works/)
 
 **Embeddingi:**
 
-- https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/
-- https://www.ibm.com/think/topics/vector-embedding
+- [Word Embeddings in NLP](https://www.geeksforgeeks.org/nlp/word-embeddings-in-nlp/)
+- [Vector Embedding](https://www.ibm.com/think/topics/vector-embedding)
 
 **Generowanie tekstu:**
 
-- https://www.geeksforgeeks.org/nlp/tokenization-vs-embeddings/
-- https://pm.dartus.fr/posts/2025/how-llm-generate-text/
+- [Tokenization vs Embeddings](https://www.geeksforgeeks.org/nlp/tokenization-vs-embeddings/)
+- [How LLMs Generate Text](https://pm.dartus.fr/posts/2025/how-llm-generate-text/)
 
 # Agenci
 
@@ -47,8 +47,8 @@
 
 ### Materiały:
 
-- https://medium.com/@maximilian.vogel/mastering-ai-agents-the-10-best-free-courses-tutorials-learning-tools-46bc380a19d1
-- https://huggingface.co/learn/agents-course/unit0/introduction
+- [Mastering AI Agents: The 10 Best Free Courses, Tutorials & Learning Tools](https://medium.com/@maximilian.vogel/mastering-ai-agents-the-10-best-free-courses-tutorials-learning-tools-46bc380a19d1)
+- [Hugging Face Agents Course](https://huggingface.co/learn/agents-course/unit0/introduction)
 
 # Prompting demo
 
